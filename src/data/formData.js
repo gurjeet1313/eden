@@ -1,0 +1,81 @@
+export const FormData = [
+  {
+    id: 1,
+    title: "Welcome! First things first...",
+    subTitle: "You can always  change them later",
+    type: "inputFields",
+    formFields: [
+      {
+        fieldTitle: "Full Name",
+        filedPlaceHolder: "Steve Jobs",
+        fieldType: "text",
+        name: "fullName",
+        optional: false,
+        erro: false,
+      },
+      {
+        fieldTitle: "Display Name",
+        filedPlaceHolder: "Steve",
+        fieldType: "text",
+        name: "displayName",
+        optional: false,
+        erro: false,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "let's set up a home for all your work",
+    subTitle: "You can always  another workspace later.",
+    type: "inputFields",
+    formFields: [
+      {
+        fieldTitle: "Workspace Name",
+        filedPlaceHolder: "Eden",
+        fieldType: "text",
+        name: "workspaceName",
+        optional: false,
+        erro: false,
+      },
+      {
+        fieldTitle: "Wordspace URL",
+        filedPlaceHolder: "Steve",
+        fieldType: "url",
+        name: "workspaceUrl",
+        optional: true,
+        erro: false,
+        fieldExample: "www.eden.com/",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "How are you planning to use Eden?",
+    subTitle: "We'll streamline your setup experience accordingly",
+    type: "radio",
+    formFields: [
+      {
+        cardType: "single",
+        fieldType: "radio",
+        cardTitle: "For myself",
+        name: "workSpaceOption",
+        erro: false,
+        cardDescription: "Write better. Think more clearly. Stay organized",
+      },
+      {
+        cardType: "team",
+        fieldType: "radio",
+        cardTitle: "With my team",
+        name: "workSpaceOption",
+        erro: false,
+        cardDescription: "Wikis, docs, tasks & projects, all in one place",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Congratulations ",
+    subTitle: "You have completed onboarding, you can start using the Eden",
+    type: "planeText",
+  },
+];
